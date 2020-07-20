@@ -1,0 +1,15 @@
+version: 'my first'
+
+services:
+
+  db:
+    image: postgres 12.0-alpine
+    ports:
+      - '3306:3306'
+    volumes:
+    - D:\projects java\db
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: app
+
