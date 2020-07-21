@@ -7,7 +7,7 @@ services:
     ports:
       - '3306:3306'
     volumes:
-    - D:\projects java\db
+    - ./postgres_data:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_USER: user
