@@ -1,0 +1,2 @@
+для запуска docker-compose используем команду docker-compose up -d --force-recreate
+также удалена строчка volumes в yml файле т.к.был крнфликт прав на windows
